@@ -1,7 +1,7 @@
 import sys 
 import os
 import hashlib 
-import md5
+
 
 def getName(path):
 	name = os.path.basename(path)
@@ -10,12 +10,12 @@ def getName(path):
 def getSize(file):
 	size = os.path.getSize(file)
 
-def getSHA1(data)
+def getSHA1(data):
 	SHA1Hash = hashlib.sha1()
-	SHA1Hash = SHA1Hash.update(data)
+	SHA1Hash.update(data.encode())
 	return SHA1Hash.hexdigest()
 
-def getMD5(data)
-	MD5Hash = md5.new()
-	MD5Hash = MD5hash.update(data)
-	return MD5hash.hexdigest()
+def getMD5(data):
+  	MD5hash = hashlib.md5()
+  	MD5hash.update(data.encode())
+  	return MD5hash.hexdigest()
