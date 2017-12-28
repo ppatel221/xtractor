@@ -1,9 +1,9 @@
 language: python
 python:
--2.7
+  -2.7
 install:
--pip install os
--pip install sys
--pip install hashlib
+  -pip install os
+  -pip install sys
+  -pip install hashlib
 script: python fileInfo.py
 
