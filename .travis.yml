@@ -1,2 +1,9 @@
 language: python
-script: py.test
+python:
+-2.7
+install:
+-pip install os
+-pip install sys
+-pip install hashlib
+script: python fileInfo.py
+
