@@ -23,4 +23,8 @@ After cloning the repo go into the xtractor repo and execute the command:
   
   getMD5(data): 37c4b87edffc5d198ff5a185cee7ee09
 
+## Contributions ##
+There is always a way to improve an existing project. Feel free to look at the code and request for PR
 
+## License ##
+The project is currently licensed under the MIT license.
