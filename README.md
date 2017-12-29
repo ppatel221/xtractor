@@ -14,7 +14,7 @@ After cloning the repo go into the xtractor repo and execute the command:
 
 `python fileInfo.py data/mydata.txt`
 
-### * the following test will return:###
+* ### * the following test will return:
  * getName(path): mydata.txt
  * getSize(path): 44
  * getSHA1(data): be417768b5c3c5c1d9bcb2e7c119196dd76b5570
