@@ -7,7 +7,9 @@
 
 ## Getting started ##
 Clone the xtractor repo using this command:
+
 `https://github.com/ppatel221/xtractor.git`
 
 After cloning the repo go into the xtractor repo and execute the command:
+
 `python fileInfo.py`
