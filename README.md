@@ -1,4 +1,6 @@
 # xtractor #
+A python library which gives information about a specific file. 
+
 * ### This library containing functions compute the following things:
   * Return the name of the file
   * Return the size of a given file name
